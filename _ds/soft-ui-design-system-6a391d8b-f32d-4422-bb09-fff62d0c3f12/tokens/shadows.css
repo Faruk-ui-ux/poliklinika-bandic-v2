@@ -1,0 +1,14 @@
+:root {
+  /* Extruded — light source top-left, shadow bottom-right. Default resting state. */
+  --shadow-extruded: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  --shadow-extruded-hover: 12px 12px 20px rgba(163, 177, 198, 0.7), -12px -12px 20px rgba(255, 255, 255, 0.6);
+  --shadow-extruded-sm: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
+
+  /* Inset — pressed states and wells. */
+  --shadow-inset: inset 6px 6px 10px rgba(163, 177, 198, 0.6), inset -6px -6px 10px rgba(255, 255, 255, 0.5);
+  --shadow-inset-deep: inset 10px 10px 20px rgba(163, 177, 198, 0.7), inset -10px -10px 20px rgba(255, 255, 255, 0.6);
+  --shadow-inset-sm: inset 3px 3px 6px rgba(163, 177, 198, 0.6), inset -3px -3px 6px rgba(255, 255, 255, 0.5);
+
+  /* Inset variants tuned to sit on the accent color instead of the grey surface. */
+  --shadow-inset-on-accent: inset 4px 4px 8px rgba(40, 34, 120, 0.45), inset -4px -4px 8px rgba(255, 255, 255, 0.25);
+}

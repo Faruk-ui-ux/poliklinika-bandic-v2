@@ -1,0 +1,7 @@
+:root {
+  --radius-inner: 12px; /* chips, small wells */
+  --radius-base: 16px; /* buttons, inputs */
+  --radius-md: 24px; /* medium panels — the sharpest a panel ever gets */
+  --radius-container: 32px; /* cards, sheets, hero panels */
+  --radius-full: 9999px;
+}

@@ -1,0 +1,25 @@
+:root {
+  --duration-fast: 150ms; /* @kind other */
+  --duration-base: 300ms; /* @kind other */ /* UI elements */
+  --duration-slow: 500ms; /* @kind other */ /* nested depth, weightier physics */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --ease: ease-out; /* @kind other */
+  --transition-base: all var(--duration-base) ease-out;
+
+  --lift-hover: -1px;
+  --lift-card-hover: -2px;
+  --press: 0.5px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

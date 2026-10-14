@@ -1,0 +1,39 @@
+:root {
+  /* Base palette — one cool grey surface. All visual interest comes from shadow play. */
+  --grey-100: #ffffff;
+  --grey-200: #eef1f6;
+  --grey-300: #e0e5ec; /* the surface everything is molded from */
+  --grey-400: #cdd4de;
+  --grey-500: #a3b1c6; /* shadow tone */
+  --grey-600: #a0aec0;
+  --grey-700: #6b7280;
+  --grey-800: #3d4852;
+  --grey-900: #2a3138;
+
+  --violet-400: #8b84ff;
+  --violet-500: #6c63ff;
+  --violet-600: #574ee6;
+  --teal-500: #38b2ac;
+
+  /* Semantic aliases */
+  --surface: var(--grey-300);
+  --surface-card: var(--grey-300); /* cards NEVER go white */
+  --surface-well: var(--grey-300);
+  --text-body: var(--grey-800);
+  --text-heading: var(--grey-800);
+  --text-muted: var(--grey-700); /* 4.6:1 — WCAG AA */
+  --text-placeholder: var(--grey-600); /* decorative/placeholder only */
+  --text-on-accent: #ffffff;
+  --accent: var(--violet-500);
+  --accent-light: var(--violet-400);
+  --accent-press: var(--violet-600);
+  --accent-secondary: var(--teal-500);
+  --border: transparent; /* neumorphism has no borders; shadows define edges */
+  --focus-ring: var(--violet-500);
+
+  /* Shadow colors — RGBA only, never opaque hex */
+  --shadow-dark-rgb: 163, 177, 198;
+  --shadow-light-rgb: 255, 255, 255;
+  --shadow-dark: rgba(163, 177, 198, 0.6);
+  --shadow-light: rgba(255, 255, 255, 0.5);
+}
